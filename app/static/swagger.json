@@ -5,7 +5,7 @@
         "version": "1.0.0"
     },
     "paths": {
-        "/api/taks": {
+        "/api/task": {
             "get": {
                 "summary": "Obtiene la lista de todas las tareas",
                 "security": [
@@ -245,8 +245,8 @@
                     "created_at": {
                         "type": "string"
                     },
-                    "age": {
-                        "type": "integer"
+                    "status": {
+                        "type": "string"
                     },
                     "assigned_to": {
                         "type": "string"
@@ -256,7 +256,7 @@
                     "title",
                     "description",
                     "created_at",
-                    "age",
+                    "status",
                     "assigned_to"
                 ]
             },
